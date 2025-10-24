@@ -1,0 +1,96 @@
+  body {
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .card {
+      width: 360px;
+      height: 220px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #003366, #004c99);
+      color: white;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .chip {
+      width: 50px;
+      height: 35px;
+
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    .wave {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.15);
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+    }
+
+    .card-number {
+      font-size: 18px;
+      letter-spacing: 3px;
+      margin-top: 25px;
+    }
+
+    .details {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      margin-top: 10px;
+    }
+
+    .name {
+      position: absolute;
+      bottom: 35px;
+      left: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .mastercard {
+      position: absolute;
+      bottom: 25px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    .red {
+      background: #eb001b;
+    }
+
+    .yellow {
+      background: #f79e1b;
+      margin-left: -10px;
+    }
+
+    .contactless {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 22px;
+    }
